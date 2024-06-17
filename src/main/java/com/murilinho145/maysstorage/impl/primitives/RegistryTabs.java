@@ -1,6 +1,6 @@
 package com.murilinho145.maysstorage.impl.primitives;
 
-import com.murilinho145.maysstorage.MaysStorage;
+import com.murilinho145.maysstorage.MaysHammer;
 import com.murilinho145.maysstorage.impl.RegistryImpl;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -12,7 +12,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class RegistryTabs {
     private static boolean AlreadyRegisteredTab = false;
-    public static final DeferredRegister<CreativeModeTab> DEFAULT_TAB = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MaysStorage.MODID);
+    public static final DeferredRegister<CreativeModeTab> DEFAULT_TAB = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MaysHammer.MODID);
 
 
     public static DeferredRegister<CreativeModeTab> registry() {

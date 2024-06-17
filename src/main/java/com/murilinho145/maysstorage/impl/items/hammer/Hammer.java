@@ -1,6 +1,5 @@
 package com.murilinho145.maysstorage.impl.items.hammer;
 
-import com.murilinho145.maysstorage.MaysStorage;
 import com.murilinho145.maysstorage.impl.items.LevelHarvest;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
