@@ -52,7 +52,6 @@ public class Hammer extends PickaxeItem {
         } else {
             this.mode = HammerMode.getMode(tag.getInt("mode"));
         }
-        System.out.println(this.mode);
 
         if (this.mode == HammerMode.ANGULAR) {
             Level level = player.getCommandSenderWorld();

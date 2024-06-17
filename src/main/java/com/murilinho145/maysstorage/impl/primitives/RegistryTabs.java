@@ -18,7 +18,7 @@ public class RegistryTabs {
     public static DeferredRegister<CreativeModeTab> registry() {
         if (!AlreadyRegisteredTab) {
             RegistryObject<CreativeModeTab> TAB = DEFAULT_TAB.register("tab", () -> CreativeModeTab.builder()
-                    .title(Component.literal("Hammer"))
+                    .title(Component.literal("Mays Hammer"))
                     .displayItems((p,o) -> {
                         for (RegistryObject<Item> entry : RegistryImpl.DEFAULT_REGISTRY.getEntries()) {
                             o.accept(entry.get());

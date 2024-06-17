@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "maysstorage:item/stone_hammer"
+    "layer0": "mayshammer:item/stone_hammer"
   }
 }
